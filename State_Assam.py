@@ -100,7 +100,7 @@ with open("header.html", "r") as f:
     html_content = f.read()
 html_content = html_content.replace("{{State Name}}", state_name)
 html_content = html_content.replace("{{ jarvis_png }}", jarvis_png)
-html_content = html_content.replace("{{ state_map_logo }}", state_map)
+# html_content = html_content.replace("{{ state_map_logo }}", state_map)
 st.markdown(html_content, unsafe_allow_html=True)
 
 ## ------------------ Page Line line Desingn
@@ -760,3 +760,4 @@ st_autorefresh(interval=3600000, key="auto_logout_refresh")
 try:st.markdown(f"""<div style="{format(bg1='#e6ffea', bg2="#3697b2", border="#80C99F")}">  </div> """, unsafe_allow_html=True)
 except:pass
 ##--Roungh chose colour for desing --
+
