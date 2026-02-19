@@ -7,7 +7,8 @@ from collections import defaultdict
 from datetime import datetime
 
 state_name  = "West Bengal"
-state_map   = state_map_logo("State_WB.png")
+state_map   = state_map_logo("Bharat_map.png")
+# state_map   = state_map_logo("State_WB.png")
 csv_file    = "1RTve0dFBAku_2BXYq1xeiPqWwgyvQ9jY"
 
 jarvis_png  = jarvis_logo()
@@ -760,3 +761,4 @@ st_autorefresh(interval=3600000, key="auto_logout_refresh")
 try:st.markdown(f"""<div style="{format(bg1='#e6ffea', bg2="#3697b2", border="#80C99F")}">  </div> """, unsafe_allow_html=True)
 except:pass
 ##--Roungh chose colour for desing --
+
